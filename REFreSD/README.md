@@ -13,11 +13,11 @@ The non-tokenized version of the dataset along with sentence level judgments can
 The ```REFreSD_rationales``` file is augmented with annotation rationales. Note that the latter is tokenized so that each 
 rationalized tag is assigned to a token.  
 
-## Preprocessed version of the dataset 
+## Pre-processed version of the dataset 
 
 We releaze the tokenized version of our data formatted so that they can be directly processed
-by a transformer-based as implemented on top of the [HuggingFace](https://github.com/huggingface/transformers)
-library. The preprocessed version can be found under ```REFreSD_for_huggingface```.
+by a transformer-based model as implemented on top of the [HuggingFace](https://github.com/huggingface/transformers)
+library. The pre-processed version can be found under ```REFreSD_for_huggingface```.
 
 ## Sentence-tags notation
 
