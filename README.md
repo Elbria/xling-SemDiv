@@ -15,7 +15,7 @@ among divergent instances.
 ## Table of contents
 
 - [Setup](#setup)
-- [Mimicing semantic divergences](#Mimicing-semantic-divergences)
+- [Mimicking semantic divergences](#Mimicking-semantic-divergences)
 - [Learning to rank semantic divergences](#divergence-ranking)
 - [REFreSD evaluation](#refresd-evaluation)
 - [Contact](#contact)
