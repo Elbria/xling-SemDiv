@@ -33,7 +33,7 @@ among divergent instances.
 2. Download [Berkeley aligner](https://code.google.com/archive/p/berkeleyaligner/downloads) (**berkeleyaligner_unsupervised-2.1.tar.gz**); 
 unzip the compressed file under the root directory of the project (a file named ```berkeleyaligner``` should appear under current root before you move to the next step).
 
-3. Run the following script to download the and install the required software: 
+3. Run the following script to download and install the required software: 
 
     ```bash
     bash setup.sh
