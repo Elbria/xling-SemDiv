@@ -97,7 +97,7 @@ if [ ! -f "${wikimatrix_file}.moses.$1" ]; then
     cat ${wikimatrix_file}.en | \
 				$moses_dir/replace-unicode-punctuation.perl | \
                                 $moses_dir/normalize-punctuation.perl -l en | \
-				$moded_dir/remove-non-printing-char.perl | \
+				$moses_dir/remove-non-printing-char.perl | \
 				$moses_dir/tokenizer.perl -l en -no-escape \
 				> $wikimatrix_file.moses.en
 
@@ -105,7 +105,7 @@ if [ ! -f "${wikimatrix_file}.moses.$1" ]; then
     cat ${wikimatrix_file}.${non_en} | \
                                 $moses_dir/replace-unicode-punctuation.perl | \
                                 $moses_dir/normalize-punctuation.perl -l $non_en | \
-                                $moded_dir/remove-non-printing-char.perl | \
+                                $moses_dir/remove-non-printing-char.perl | \
 			        $moses_dir/tokenizer.perl -l $non_en -no-escape \
 			        > ${wikimatrix_file}.moses.$non_en
     cd $data_dir
