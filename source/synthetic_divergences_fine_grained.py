@@ -7,7 +7,7 @@ Created on 29 March 2020
 
 The modules for creating the 'unever, replace, random delete, insert' where implemented
 
-        Module implemented by: https://github.com/SYSTRAN/similarity/blob/master/src/build_data.py
+        by: https://github.com/SYSTRAN/similarity/blob/master/src/build_data.py
 
 
 """
