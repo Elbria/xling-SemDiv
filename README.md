@@ -15,7 +15,7 @@ among divergent instances.
 ## Table of contents
 
 - [Setup](#setup)
-- [Mimicing semantic divergences](#Mimicing-semantic-divergences)
+- [Mimicking semantic divergences](#Mimicking-semantic-divergences)
 - [Learning to rank semantic divergences](#divergence-ranking)
 - [REFreSD evaluation](#refresd-evaluation)
 - [Contact](#contact)
@@ -33,7 +33,7 @@ among divergent instances.
 2. Download [Berkeley aligner](https://code.google.com/archive/p/berkeleyaligner/downloads) (**berkeleyaligner_unsupervised-2.1.tar.gz**); 
 unzip the compressed file under the root directory of the project (a file named ```berkeleyaligner``` should appear under current root before you move to the next step).
 
-3. Run the following script to download the and install the required software: 
+3. Run the following script to download and install the required software: 
 
     ```bash
     bash setup.sh
@@ -61,8 +61,8 @@ Generate synthetic divergences from seed equivalents:
 
 ## Divergence ranking
 
-Fine-tune divergentmBERT via learning to rank contrastive divergences of
-increased granularity. We learn to rank pairs of close divergence types: equivalent vs. lexical substitution (were we mimic both generalization **and** particularization), lexical substitution vs. phrase replacement or substree deletion yielding four contrastive pairs.
+Fine-tune divergentmBERT (implemented on top of the [HuggingFace transformers](https://github.com/huggingface/transformers) library) 
+via learning to rank contrastive divergences of increased granularity. We learn to rank pairs of close divergence types: equivalent vs. lexical substitution (were we mimic both generalization **and** particularization), lexical substitution vs. phrase replacement or substree deletion yielding four contrastive pairs.
 
 
     bash train-margin.sh en fr 
