@@ -107,7 +107,6 @@ def alignments2dic(ali):
     for alignment in ali:
 
         alignment = alignment.split('-')
-        print(ali)
         alignment_mappings[int(alignment[1])] = int(alignment[0])
 
     return alignment_mappings
