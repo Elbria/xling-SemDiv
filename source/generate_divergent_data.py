@@ -22,6 +22,7 @@ from nltk.tokenize import word_tokenize
 from utils import pos_phrases_ngrams
 from synthetic_divergences_fine_grained import synthetic_divergences
 
+nltk.data.path.append('data/nltk_data/')
 tokenizer = RegexpTokenizer(r'\w+')
 flatten = itertools.chain.from_iterable
 stopwords_list = stopwords.words('english')
