@@ -431,7 +431,7 @@ def main():
                                                   unlabeled[
                                                       ex]))
 
-                    if o.divergence_ranking:
+                    if o.divergence_ranking and not o.multi_task:
                     	test_synthetic_divergence_ranking.write(
                         	'0\t{0}\t{1}\t{2}'.format(str(unique_id_per_sentence), str(unique_id_per_sentence + 1),
                                                   unlabeled[
