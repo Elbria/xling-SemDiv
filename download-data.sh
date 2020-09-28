@@ -112,7 +112,7 @@ if [ ! -f "${wikimatrix_file}.moses.$1" ]; then
     echo '> done'
 fi;
 
-# ==> Step 7: Create aligner configuration 
+# ==> Step 6: Create aligner configuration 
 aligner_configuration=$scripts_dir/aligner.en-${non_en}.conf
 if [ ! -f "$software_dir/berkeleyaligner/aligner.$1-$2.conf" ]; then
     echo '> Create aligner configuration'
@@ -125,7 +125,7 @@ if [ ! -f "$software_dir/berkeleyaligner/aligner.$1-$2.conf" ]; then
     echo '> done'
 fi;
 
-# ==> Step 8: Align sample sentences of Wikimatrix data
+# ==> Step 7: Align sample sentences of Wikimatrix data
 aligned_wikimatrix=${wikimatrix_file}.moses.align
 berkeley_dir=$software_dir/berkeleyaligner
 if [ ! -f "${aligned_wikimatrix}" ]; then
@@ -145,7 +145,7 @@ if [ ! -f "${aligned_wikimatrix}" ]; then
     echo '> done'
 fi; 
 
-# ==> Step 9: Extract seed equivalents
+# ==> Step 8: Extract seed equivalents
 seed_equivalents=${wikimatrix_file}.moses.seed
 if [ ! -f "${seed_equivalents}" ]; then
     echo '> Extract seed equivalents'
@@ -157,7 +157,7 @@ if [ ! -f "${seed_equivalents}" ]; then
     echo '> done'
 fi;
 
-# ==> Step 10: Download nltk data (stopwords)
+# ==> Step 9: Download nltk data (stopwords)
 nltk_corpora_dir=$data_dir/nltk_data/corpora
 if [ ! -d "${nltk_corpora_dir}" ]; then
     echo '> Download stopwords corpora from nltk data'
@@ -169,7 +169,7 @@ if [ ! -d "${nltk_corpora_dir}" ]; then
     echo '> done'
 fi;
 
-# ==> Step 11: Download nltk data (punctuation)
+# ==> Step 10: Download nltk data (punctuation)
 nltk_punkt_dir=$data_dir/nltk_data/tokenizers
 if [ ! -d "${nltk_punkt_dir}" ]; then
     echo '> Download punctutation corpora from nltk data'
@@ -181,7 +181,7 @@ if [ ! -d "${nltk_punkt_dir}" ]; then
     echo '> done'
 fi;
 
-# ==> Step 12: Download nltk data (taggers)
+# ==> Step 11: Download nltk data (taggers)
 nltk_tag_dir=$data_dir/nltk_data/taggers
 if [ ! -d "${nltk_tag_dir}" ]; then
     echo '> Download taggers from nltk data'
@@ -193,7 +193,7 @@ if [ ! -d "${nltk_tag_dir}" ]; then
     echo '> done'
 fi;
 
-# ==> Step 13: Download nltk data (wordnet)
+# ==> Step 12: Download nltk data (wordnet)
 nltk_corpora_dir=$data_dir/nltk_data/corpora
 if [ ! -d "${nltk_corpora_dir}/wordnet" ]; then
     echo '> Download wordnetfrom nltk data'
