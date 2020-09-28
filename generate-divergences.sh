@@ -10,7 +10,7 @@
 #                                                                           #
 #                          ====  Step 3  ====                               #
 #                                                                           #
-#                     Mimic synthetic divergences                           #
+#                     Mimick synthetic divergences                          #
 #                                                                           #
 #                                                                           #
 #############################################################################
