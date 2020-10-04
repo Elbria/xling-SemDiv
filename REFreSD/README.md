@@ -1,6 +1,6 @@
 # REFreSD
 
-This repository contains the **R**ationalized **E**nglish-**Fre**nch **S**emantic **D**ivergences, REFresd, dataset, that consists of 1,039 English-French sentence-pairs annotated with sentence-level divergence judgments and token-level rationales. 
+This repository contains the **R**ationalized **E**nglish-**Fre**nch **S**emantic **D**ivergences (REFreSD) dataset, that consists of 1,039 English-French sentence-pairs annotated with sentence-level divergence judgments and token-level rationales. 
 
     
 <p align="center">
