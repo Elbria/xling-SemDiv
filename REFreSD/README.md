@@ -38,13 +38,15 @@ token has not been highlighted by any of the annotators, 1,2,3 denote that the t
 If you use any contents of this repository, please cite us. For any questions, write to ebriakou@cs.umd.edu.
 
 ```
-@inproceedings{briakou2020emnlp,
-    title = {Detecting fine-grained cross-lingual semantic divergences without supervision by learning to rank},
-    author = {Eleftheria Briakou and Marine Carpuat},
-    booktitle = {EMNLP},
-    address = {},
-    month = {},
-    url = {},
-    year = {2020}
+@inproceedings{briakou-carpuat-2020-detecting,
+    title = "Detecting Fine-Grained Cross-Lingual Semantic Divergences without Supervision by Learning to Rank",
+    author = "Briakou, Eleftheria and Carpuat, Marine",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.121",
+    pages = "1563--1580",
 }
 ```
