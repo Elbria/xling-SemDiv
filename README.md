@@ -101,8 +101,7 @@ If you use any contents of this repository, please cite us. For any questions, w
 ```
 @inproceedings{briakou-carpuat-2020-detecting,
     title = "Detecting Fine-Grained Cross-Lingual Semantic Divergences without Supervision by Learning to Rank",
-    author = "Briakou, Eleftheria  and
-      Carpuat, Marine",
+    author = "Briakou, Eleftheria and Carpuat, Marine",
     booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     month = nov,
     year = "2020",
